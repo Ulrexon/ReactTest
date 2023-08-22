@@ -36,3 +36,23 @@
     transform: rotate(360deg);
   }
 }
+
+.tabla {
+  border-collapse: collapse;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.tabla th, .tabla td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.tabla th {
+  background-color: #282c34;
+}
+
+.tabla tr:hover {
+  background-color: gray;
+}
